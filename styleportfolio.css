@@ -1,0 +1,78 @@
+*{
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 26rem;
+    height: 100vh;
+    background-color: #987304;
+}
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 1.5rem 0 0 7rem;
+    background-color: #987304;
+}
+.logo img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 1rem 40% 1rem  40%;
+    margin: 3rem 0 0 13rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.navbar p{
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: end;
+}
+.navbar p:hover{
+    color: #987304;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    right: 0;
+    width: 400px;
+    text-align: left;
+}
+.info{
+    margin-top: 12rem;
+}
+.icon{
+    font-size: 2rem;
+    background-color: #987304;
+    text-align: end;
+    position: fixed;
+    bottom: 4rem;
+    left: 3rem;
+}
+.icon1{
+    color: white;
+    margin: 0 1rem .5rem 0; 
+    background-color: #987304;
+}
+.icon1:hover{
+    font-size: 2.1rem;
+    color: #a10606;
+    cursor: pointer;
+}
+.color{
+    color: #987304;
+}
+.icon a{
+    background-color: #987304;
+    color: #987304;
+}
