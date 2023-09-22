@@ -23,10 +23,10 @@
     background-color: #987304;
 }
 .logo img{
-    width: 25rem;
-    height: 25rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 1rem 40% 1rem  40%;
-    margin: 4rem 0 0 11rem;
+    margin: 3rem 0 0 10rem;
 }
 .navbar{
     display: flex;
@@ -56,7 +56,7 @@
     font-size: 1rem;
 }
 .icon{
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #987304;
     text-align: end;
     position: fixed;
