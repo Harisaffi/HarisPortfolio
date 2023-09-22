@@ -9,7 +9,7 @@
     width: 100%;
 }
 .logo{
-    width: 26rem;
+    width: 30rem;
     height: 100vh;
     background-color: #987304;
 }
@@ -17,16 +17,16 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Sacramento', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
-    margin: 1.5rem 0 0 7rem;
+    margin: 1.5rem 0 0 5rem;
     background-color: #987304;
 }
 .logo img{
-    width: 22rem;
-    height: 22rem;
+    width: 30rem;
+    height: 30rem;
     border-radius: 1rem 40% 1rem  40%;
-    margin: 3rem 0 0 13rem;
+    margin: 4rem 0 0 13rem;
 }
 .navbar{
     display: flex;
@@ -37,6 +37,7 @@
 .navbar p{
     margin: 1rem 1rem 1rem 1rem;
     text-align: end;
+    font-size: 1.5rem;
 }
 .navbar p:hover{
     color: #987304;
@@ -44,15 +45,18 @@
 }
 .sidebar{
     position: fixed;
-    right: 0;
+    right: 10rem;
     width: 400px;
     text-align: left;
 }
 .info{
     margin-top: 12rem;
 }
+.info p{
+    font-size: 1.3rem;
+}
 .icon{
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: #987304;
     text-align: end;
     position: fixed;
@@ -65,7 +69,6 @@
     background-color: #987304;
 }
 .icon1:hover{
-    font-size: 2.1rem;
     color: #a10606;
     cursor: pointer;
 }
