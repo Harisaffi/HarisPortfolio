@@ -144,6 +144,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 .logo{
     height: 100vh;
     background-image: url("assets/background.png");
@@ -194,6 +198,9 @@
     display: flex;
     padding: -4rem;
     margin-left: 3rem;
+}
+.navbar a {
+    text-decoration: none;
 }
 .navbar p{
     padding: 0  3rem 0 0;
