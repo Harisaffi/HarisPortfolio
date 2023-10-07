@@ -1,0 +1,238 @@
+/* *{
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 26rem;
+    height: 100vh;
+    background-color: #987304;
+}
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 1.5rem 0 0 5rem;
+    background-color: #987304;
+}
+.logo img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 1rem 40% 1rem  40%;
+    margin: 3rem 0 0 12rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar p{
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: end;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+.navbar p:hover{
+    color: #987304;
+    cursor: pointer;
+}
+.sidebar{
+    margin-left: 45rem;
+    right: 2rem;
+    width: 400px;
+    text-align: left;
+    background-color: transparent;
+}
+.info{
+    margin-top: 12rem;
+    background-color: transparent;
+}
+.info p{
+    font-size: 1rem;
+    background-color: transparent;
+}
+.info h1,h2,span{
+    background-color: transparent;
+}
+.icon{
+    font-size: 2rem;
+    background-color: #987304;
+    text-align: end;
+    margin-top: 7rem;
+    margin-right: 5rem;
+}
+.icon1{
+    color: white;
+    margin: 0 1rem .5rem 0; 
+    background-color: transparent;
+}
+.icon1:hover{
+    color: #a10606;
+    cursor: pointer;
+}
+.color{
+    color: #987304;
+}
+.icon a{
+    background-color: #987304;
+    color: #987304;
+}
+.new_line{
+    display: flex;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: #987304;
+}
+.line{
+    width: 80rem;
+    height: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #987304;
+}
+.about_page{
+    display: flex;
+    height: 35rem;
+}
+.about{
+    width: 30%;
+    height: 100vh;
+    margin: 5rem 0 0 10rem;
+}
+.about h1{
+    font-size: 50px;
+    color: #987304;
+}
+.about p{
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+.image{
+    height: 30rem;
+    padding: 3rem 0 0 30rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    /* background-color: azure; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 100vh;
+    background-image: url("assets/background.png");
+    text-align: center;
+    background-size: cover;
+}
+.menu_bar{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 2.5rem;
+    left: 2rem;
+}
+.logo img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 6rem;
+}
+.logo h1{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    margin-top: 3rem;
+    transform: rotate(-10deg);
+}
+.logo p{
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.icon{
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+.icon1{
+    color: white;
+    margin: 0 2rem 0 0; 
+    background-color: transparent;
+}
+.icon1:hover{
+    color: teal;
+}
+.navbar{
+    font-size: 1.5rem;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    padding: -4rem;
+    margin-left: 3rem;
+}
+.navbar p{
+    padding: 0  3rem 0 0;
+}
+.navbar p:hover{
+    color: teal;
+    cursor: pointer;
+}
+.new_line{
+    margin-top: 2rem;
+    width: 90rem;
+    height: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 147, 147);
+}
+.row{
+    font-family: 'Space Mono',Arial,Serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5rem;
+}
+.about{
+    display: flex;
+}
+.Contact{
+    font-family: 'Space Mono',Arial,Serif;
+    width: 40%;
+    height: 50vh;
+    margin: 12rem 0 0 6rem;
+}
+.info{
+    font-family: 'Space Mono',Arial,Serif;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    right: 2rem;
+    width: 400px;
+    word-spacing: 5px;
+    line-height: 1.5rem;
+    text-align: left;
+    background-color: transparent;
+}
