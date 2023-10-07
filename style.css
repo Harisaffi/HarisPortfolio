@@ -203,10 +203,9 @@
     cursor: pointer;
 }
 .new_line{
-    margin-top: 2rem;
-    width: 90rem;
+    margin: 2rem auto;
+    width: 90%;
     height: 10px;
-    margin-left: 50px;
     border-radius: 10px;
     background-color: rgb(0, 147, 147);
 }
@@ -218,21 +217,30 @@
 }
 .about{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
 }
 .Contact{
     font-family: 'Space Mono',Arial,Serif;
-    width: 40%;
-    height: 50vh;
-    margin: 12rem 0 0 6rem;
+    width: 50%;
+    padding: 2rem;
 }
 .info{
     font-family: 'Space Mono',Arial,Serif;
-    margin-left: 20rem;
-    margin-top: 5rem;
-    right: 2rem;
-    width: 400px;
+    width: 50%;
     word-spacing: 5px;
     line-height: 1.5rem;
     text-align: left;
     background-color: transparent;
+    padding: 2rem;
+}
+
+.edu{
+    font-family: 'Space Mono',Arial,Serif;
+    text-align: center;
+    background-color: rgb(135, 147, 147);
+    /* display: inline-block; */
+    display: grid;
 }
