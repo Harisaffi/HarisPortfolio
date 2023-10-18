@@ -1,143 +1,3 @@
-/* *{
-    background-color: azure;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    box-sizing: border-box;
-}
-.header{
-    display: flex;
-    width: 100%;
-}
-.logo{
-    width: 26rem;
-    height: 100vh;
-    background-color: #987304;
-}
-.logo h1{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Sacramento', cursive;
-    font-size: 2rem;
-    color: white;
-    margin: 1.5rem 0 0 5rem;
-    background-color: #987304;
-}
-.logo img{
-    width: 22rem;
-    height: 22rem;
-    border-radius: 1rem 40% 1rem  40%;
-    margin: 3rem 0 0 12rem;
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color: transparent;
-}
-.navbar p{
-    margin: 1rem 1rem 1rem 1rem;
-    text-align: end;
-    font-size: 1.5rem;
-    background-color: transparent;
-}
-.navbar p:hover{
-    color: #987304;
-    cursor: pointer;
-}
-.sidebar{
-    margin-left: 45rem;
-    right: 2rem;
-    width: 400px;
-    text-align: left;
-    background-color: transparent;
-}
-.info{
-    margin-top: 12rem;
-    background-color: transparent;
-}
-.info p{
-    font-size: 1rem;
-    background-color: transparent;
-}
-.info h1,h2,span{
-    background-color: transparent;
-}
-.icon{
-    font-size: 2rem;
-    background-color: #987304;
-    text-align: end;
-    margin-top: 7rem;
-    margin-right: 5rem;
-}
-.icon1{
-    color: white;
-    margin: 0 1rem .5rem 0; 
-    background-color: transparent;
-}
-.icon1:hover{
-    color: #a10606;
-    cursor: pointer;
-}
-.color{
-    color: #987304;
-}
-.icon a{
-    background-color: #987304;
-    color: #987304;
-}
-.new_line{
-    display: flex;
-}
-.dot{
-    width: 10px;
-    height: 10px;
-    margin-left: 50px;
-    border-radius: 50%;
-    background-color: #987304;
-}
-.line{
-    width: 80rem;
-    height: 10px;
-    margin-left: 50px;
-    border-radius: 10px;
-    background-color: #987304;
-}
-.about_page{
-    display: flex;
-    height: 35rem;
-}
-.about{
-    width: 30%;
-    height: 100vh;
-    margin: 5rem 0 0 10rem;
-}
-.about h1{
-    font-size: 50px;
-    color: #987304;
-}
-.about p{
-    font-size: 1.5rem;
-    margin-top: 4rem;
-    word-spacing: 2px;
-    line-height: 2rem;
-}
-.image{
-    height: 30rem;
-    padding: 3rem 0 0 30rem;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
     font-family: 'Space Mono',Arial,Serif;
     margin: 0;
@@ -147,6 +7,10 @@
 html {
     scroll-behavior: smooth;
 }
+
+                    /* main page  */
+
+
 .logo{
     height: 100vh;
     background-image: url("assets/background.png");
@@ -213,6 +77,11 @@ html {
     border-radius: 10px;
     background-color: rgb(0, 147, 147);
 }
+
+
+                        /* about page */
+
+
 .row{
     font-size: 40px;
     text-align: center;
@@ -238,8 +107,214 @@ html {
     padding: 2rem;
 }
 
+
+                /* resume page  */
+
+                /* education page  */
+
+
 .edu{
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-top: 4rem;
+}
+.edu h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+}
+.education{
+    display: flex;
+    margin: 2rem;
+}
+.high_school{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.cap{
+    padding-top: 3.5rem;
+    width: 50%;
+}
+.cap1{
+    padding-top: 3.5rem;
+    padding-left: 50%;
+    width: 50%;
+}
+.inter{
+    height: 100px;
+    width: 45%;
+    text-align: left;
+    padding: 2rem 0 0 4rem; 
+    width: 50%;
+}
+.bachelor{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.resume h2,p{
+    padding: 10px;
+}
+
+
+                        /* internship page  */
+
+.intern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.intern h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3rem;
+}
+
+.intern1{
+    display: flex;
+    margin: 2rem;
+}
+.suitcase{
+    padding-top: 3.5rem;
+    width: 50%;
+}
+.java_dev{
+    height: 100px;
+    width: 45%;
+    text-align: right;
+    padding: 2rem ; 
+    width: 50%;
+}
+.intern2{
+    display: flex;
+    margin: 2rem;
+}
+.suitcase1{
+    padding-top: 3.5rem;
+    padding-left: 50%;
+    width: 50%;
+}
+.web_dev{
+    height: 100px;
+    width: 45%;
+    text-align: left;
+    padding: 2rem 0 0 4rem; 
+    width: 50%;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.skill h3{
+    background: #e6e6e6;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+                        /* hire me page  */
+
+
+.hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.hire h3{
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+.hire_me{
+    width: 100%;
+    height: 20rem;
+    color: white;
+    background-color: teal;
+}
+.para{
+    width: 70%;
+    margin: auto  20%;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-left: 45%;
+    display: flex;
+    margin-top: 3rem;
+    border-color: transparent;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.contact_us{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30rem;
+    background-image: url(assets/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow a{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
 }
