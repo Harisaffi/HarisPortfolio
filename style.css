@@ -235,10 +235,23 @@ html {
     padding: 8px;
     margin-top: 3rem;
 }
-
-
-
-
+.skills{
+    display: flex;
+}
+.skill-box{
+    width: 200px;
+    margin: 1rem;
+}
+.skill-box img{
+    width: 100px;
+    height: 100px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgb(43, 77, 77) 0px 0px 30px;
+}
+.skill-box h4{
+    text-align: center;
+}
 
 
                         /* hire me page  */
@@ -355,6 +368,8 @@ textarea::placeholder{
     border-radius: 3rem;
     border: none;
     margin-top: 2rem;
+    letter-spacing: 5px;
+    font-size: 18px;
 }
 .icon6{
     text-align: center;
@@ -369,21 +384,6 @@ textarea::placeholder{
 .icon7:hover{
     color: teal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .arrow a{
     position: fixed;
