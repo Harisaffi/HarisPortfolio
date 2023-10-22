@@ -306,7 +306,8 @@ html {
     padding: 0;
     width: 100%;
     height: 45rem;
-    background-image: url(assets/contact.jpg);
+    /* background-image: url(assets/contact.jpg); */
+    background-image: url(assets/contact-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -348,7 +349,7 @@ input {
     background-color: transparent;
 }
 input::placeholder{
-    color: rgb(219, 216, 216);
+    color: black;
 }
 textarea {
     width: 100%;
@@ -359,7 +360,7 @@ textarea {
     background-color: transparent;
 }
 textarea::placeholder{
-    color: rgb(219, 216, 216);
+    color: black;
 }
 .send_btn{
     width: 40%;
