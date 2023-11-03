@@ -283,18 +283,35 @@ html {
     width: 70%;
     margin: auto  20%;
 }
+.btns{
+    display: flex;
+    margin-left: 30%;
+}
 .btn{
     width: 10rem;
     height: 3rem;
     border-radius: 3rem;
-    margin-left: 45%;
-    display: flex;
-    margin-top: 3rem;
+    margin-top: 5rem;
     border-color: transparent;
     align-items: center;
     justify-content: center;
     letter-spacing: 5px;
     font-size: 18px;
+}
+.cv1{
+    width: 14rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-left: 45%;
+    margin-top: 5rem;
+    border-color: transparent;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.btns a{
+    text-decoration: none;
 }
 
 
@@ -326,7 +343,7 @@ html {
 .cont h3{
     border-radius: 5px;
     padding: 8px;
-    color: white;
+    color: teal;
 }
 .cont_form{
     width: 30%;
