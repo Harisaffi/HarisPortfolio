@@ -237,6 +237,7 @@ html {
 }
 .skills{
     display: flex;
+    text-align: center;
 }
 .skill-box{
     width: 200px;
